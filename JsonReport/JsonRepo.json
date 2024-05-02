@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate Forgotten password with invalid username",
+        "description": "",
+        "id": "to-validate-forgotten-password-functionality-in-facebook-application;to-validate-forgotten-password-with-invalid-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3912763500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the browser and max the window",
+            "match": {
+              "location": "FpPage.to_launch_the_browser_and_max_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2775506100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of the given application",
+            "match": {
+              "location": "FpPage.to_launch_the_url_of_the_given_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110569500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the invalid username in username field",
+            "match": {
+              "location": "FpPage.to_pass_the_invalid_username_in_username_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46886200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click search button",
+            "match": {
+              "location": "FpPage.to_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220316700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To close the browser",
+            "match": {
+              "location": "FpPage.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Forgotten password functionality in facebook application",
+    "description": "",
+    "id": "to-validate-forgotten-password-functionality-in-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/fp.feature",
+    "tags": []
+  }
+]
